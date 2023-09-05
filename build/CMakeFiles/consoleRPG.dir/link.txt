@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/consoleRPG.dir/main.cpp.o CMakeFiles/consoleRPG.dir/scr/player.cpp.o -o consoleRPG 

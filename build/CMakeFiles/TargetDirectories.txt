@@ -1,0 +1,3 @@
+/home/ted/Repos/consoleRPG/build/CMakeFiles/consoleRPG.dir
+/home/ted/Repos/consoleRPG/build/CMakeFiles/edit_cache.dir
+/home/ted/Repos/consoleRPG/build/CMakeFiles/rebuild_cache.dir
