@@ -1,24 +1,24 @@
-#ifndef PLAYER_H
-#define PLAYER_H
+#ifndef Warrior_H
+#define Warrior_H
 
 #include <string>
 
-class Player{
+class Warrior{
 private:
     std::string name_;
-    int healtPoints_ = 10;
+    int healthPoints_ = 10;
     int damage_ = 3;
     int xp_ = 0;
-    int playerLevel_ = 1;
+    int WarriorLevel_ = 1;
     
 
 public:
-    Player(std::string n);
+    Warrior(std::string n);
     int getDamage();   
     int getHP();
     int getLevel();
     void levelUp();
-    void attack(Player & target,Player & aggressor);
+    void attack(Warrior & target,Warrior & aggressor);
     void addXp(int x);
     
 };
@@ -26,4 +26,4 @@ public:
 
 
 
-#endif //PLAYER_H
+#endif //Warrior_H

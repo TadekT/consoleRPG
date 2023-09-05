@@ -1,10 +1,10 @@
 #include<iostream>
-#include"heder/player.h"
+#include"heder/warrior.h"
 
 int main(){
 
-    Player boo__("bob");
-    Player auc__("auc");
+    Warrior boo__("bob");
+    Warrior auc__("auc");
     std::cout<<auc__.getHP()<<"\n";
     std::cout<<boo__.getHP()<<"\n";
 

@@ -9,7 +9,7 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR}/heder)
 # Lista źródeł projektu
 set(SOURCES
     main.cpp
-    scr/player.cpp
+    scr/warrior.cpp
 )
 
 # Tworzenie pliku wykonywalnego
