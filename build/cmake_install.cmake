@@ -1,4 +1,4 @@
-# Install script for directory: /home/ted/Repos/consoleRPG
+# Install script for directory: /home/ted/Desktop/vs/conslolRPG
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ted/Repos/consoleRPG/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ted/Desktop/vs/conslolRPG/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

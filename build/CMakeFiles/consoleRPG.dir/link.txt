@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/consoleRPG.dir/main.cpp.o CMakeFiles/consoleRPG.dir/scr/player.cpp.o -o consoleRPG 
+/usr/bin/c++ CMakeFiles/consoleRPG.dir/main.cpp.o CMakeFiles/consoleRPG.dir/scr/warrior.cpp.o -o consoleRPG 

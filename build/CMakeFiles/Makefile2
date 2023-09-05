@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ted/Repos/consoleRPG
+CMAKE_SOURCE_DIR = /home/ted/Desktop/vs/conslolRPG
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ted/Repos/consoleRPG/build
+CMAKE_BINARY_DIR = /home/ted/Desktop/vs/conslolRPG/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/consoleRPG.dir/clean
 CMakeFiles/consoleRPG.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/consoleRPG.dir/build.make CMakeFiles/consoleRPG.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/consoleRPG.dir/build.make CMakeFiles/consoleRPG.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ted/Repos/consoleRPG/build/CMakeFiles --progress-num=1,2,3 "Built target consoleRPG"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ted/Desktop/vs/conslolRPG/build/CMakeFiles --progress-num=1,2,3 "Built target consoleRPG"
 .PHONY : CMakeFiles/consoleRPG.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/consoleRPG.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ted/Repos/consoleRPG/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ted/Desktop/vs/conslolRPG/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/consoleRPG.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ted/Repos/consoleRPG/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ted/Desktop/vs/conslolRPG/build/CMakeFiles 0
 .PHONY : CMakeFiles/consoleRPG.dir/rule
 
 # Convenience name for target.

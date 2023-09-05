@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ted/Repos/consoleRPG/main.cpp" "CMakeFiles/consoleRPG.dir/main.cpp.o" "gcc" "CMakeFiles/consoleRPG.dir/main.cpp.o.d"
-  "/home/ted/Repos/consoleRPG/scr/player.cpp" "CMakeFiles/consoleRPG.dir/scr/player.cpp.o" "gcc" "CMakeFiles/consoleRPG.dir/scr/player.cpp.o.d"
+  "/home/ted/Desktop/vs/conslolRPG/main.cpp" "CMakeFiles/consoleRPG.dir/main.cpp.o" "gcc" "CMakeFiles/consoleRPG.dir/main.cpp.o.d"
+  "/home/ted/Desktop/vs/conslolRPG/scr/warrior.cpp" "CMakeFiles/consoleRPG.dir/scr/warrior.cpp.o" "gcc" "CMakeFiles/consoleRPG.dir/scr/warrior.cpp.o.d"
   )
 
 # Targets to which this target links.

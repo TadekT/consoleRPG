@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ted/Repos/consoleRPG
+CMAKE_SOURCE_DIR = /home/ted/Desktop/vs/conslolRPG
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ted/Repos/consoleRPG/build
+CMAKE_BINARY_DIR = /home/ted/Desktop/vs/conslolRPG/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/consoleRPG.dir/depend.make
@@ -72,44 +72,44 @@ include CMakeFiles/consoleRPG.dir/flags.make
 CMakeFiles/consoleRPG.dir/main.cpp.o: CMakeFiles/consoleRPG.dir/flags.make
 CMakeFiles/consoleRPG.dir/main.cpp.o: ../main.cpp
 CMakeFiles/consoleRPG.dir/main.cpp.o: CMakeFiles/consoleRPG.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ted/Repos/consoleRPG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/consoleRPG.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/consoleRPG.dir/main.cpp.o -MF CMakeFiles/consoleRPG.dir/main.cpp.o.d -o CMakeFiles/consoleRPG.dir/main.cpp.o -c /home/ted/Repos/consoleRPG/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ted/Desktop/vs/conslolRPG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/consoleRPG.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/consoleRPG.dir/main.cpp.o -MF CMakeFiles/consoleRPG.dir/main.cpp.o.d -o CMakeFiles/consoleRPG.dir/main.cpp.o -c /home/ted/Desktop/vs/conslolRPG/main.cpp
 
 CMakeFiles/consoleRPG.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/consoleRPG.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ted/Repos/consoleRPG/main.cpp > CMakeFiles/consoleRPG.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ted/Desktop/vs/conslolRPG/main.cpp > CMakeFiles/consoleRPG.dir/main.cpp.i
 
 CMakeFiles/consoleRPG.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/consoleRPG.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ted/Repos/consoleRPG/main.cpp -o CMakeFiles/consoleRPG.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ted/Desktop/vs/conslolRPG/main.cpp -o CMakeFiles/consoleRPG.dir/main.cpp.s
 
-CMakeFiles/consoleRPG.dir/scr/player.cpp.o: CMakeFiles/consoleRPG.dir/flags.make
-CMakeFiles/consoleRPG.dir/scr/player.cpp.o: ../scr/player.cpp
-CMakeFiles/consoleRPG.dir/scr/player.cpp.o: CMakeFiles/consoleRPG.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ted/Repos/consoleRPG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/consoleRPG.dir/scr/player.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/consoleRPG.dir/scr/player.cpp.o -MF CMakeFiles/consoleRPG.dir/scr/player.cpp.o.d -o CMakeFiles/consoleRPG.dir/scr/player.cpp.o -c /home/ted/Repos/consoleRPG/scr/player.cpp
+CMakeFiles/consoleRPG.dir/scr/warrior.cpp.o: CMakeFiles/consoleRPG.dir/flags.make
+CMakeFiles/consoleRPG.dir/scr/warrior.cpp.o: ../scr/warrior.cpp
+CMakeFiles/consoleRPG.dir/scr/warrior.cpp.o: CMakeFiles/consoleRPG.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ted/Desktop/vs/conslolRPG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/consoleRPG.dir/scr/warrior.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/consoleRPG.dir/scr/warrior.cpp.o -MF CMakeFiles/consoleRPG.dir/scr/warrior.cpp.o.d -o CMakeFiles/consoleRPG.dir/scr/warrior.cpp.o -c /home/ted/Desktop/vs/conslolRPG/scr/warrior.cpp
 
-CMakeFiles/consoleRPG.dir/scr/player.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/consoleRPG.dir/scr/player.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ted/Repos/consoleRPG/scr/player.cpp > CMakeFiles/consoleRPG.dir/scr/player.cpp.i
+CMakeFiles/consoleRPG.dir/scr/warrior.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/consoleRPG.dir/scr/warrior.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ted/Desktop/vs/conslolRPG/scr/warrior.cpp > CMakeFiles/consoleRPG.dir/scr/warrior.cpp.i
 
-CMakeFiles/consoleRPG.dir/scr/player.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/consoleRPG.dir/scr/player.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ted/Repos/consoleRPG/scr/player.cpp -o CMakeFiles/consoleRPG.dir/scr/player.cpp.s
+CMakeFiles/consoleRPG.dir/scr/warrior.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/consoleRPG.dir/scr/warrior.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ted/Desktop/vs/conslolRPG/scr/warrior.cpp -o CMakeFiles/consoleRPG.dir/scr/warrior.cpp.s
 
 # Object files for target consoleRPG
 consoleRPG_OBJECTS = \
 "CMakeFiles/consoleRPG.dir/main.cpp.o" \
-"CMakeFiles/consoleRPG.dir/scr/player.cpp.o"
+"CMakeFiles/consoleRPG.dir/scr/warrior.cpp.o"
 
 # External object files for target consoleRPG
 consoleRPG_EXTERNAL_OBJECTS =
 
 consoleRPG: CMakeFiles/consoleRPG.dir/main.cpp.o
-consoleRPG: CMakeFiles/consoleRPG.dir/scr/player.cpp.o
+consoleRPG: CMakeFiles/consoleRPG.dir/scr/warrior.cpp.o
 consoleRPG: CMakeFiles/consoleRPG.dir/build.make
 consoleRPG: CMakeFiles/consoleRPG.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ted/Repos/consoleRPG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable consoleRPG"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ted/Desktop/vs/conslolRPG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable consoleRPG"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/consoleRPG.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -121,6 +121,6 @@ CMakeFiles/consoleRPG.dir/clean:
 .PHONY : CMakeFiles/consoleRPG.dir/clean
 
 CMakeFiles/consoleRPG.dir/depend:
-	cd /home/ted/Repos/consoleRPG/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ted/Repos/consoleRPG /home/ted/Repos/consoleRPG /home/ted/Repos/consoleRPG/build /home/ted/Repos/consoleRPG/build /home/ted/Repos/consoleRPG/build/CMakeFiles/consoleRPG.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ted/Desktop/vs/conslolRPG/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ted/Desktop/vs/conslolRPG /home/ted/Desktop/vs/conslolRPG /home/ted/Desktop/vs/conslolRPG/build /home/ted/Desktop/vs/conslolRPG/build /home/ted/Desktop/vs/conslolRPG/build/CMakeFiles/consoleRPG.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/consoleRPG.dir/depend
 

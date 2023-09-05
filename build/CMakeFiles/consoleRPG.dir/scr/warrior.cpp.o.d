@@ -1,6 +1,7 @@
-CMakeFiles/consoleRPG.dir/scr/Warrior.cpp.o: \
- /home/ted/Repos/consoleRPG/scr/Warrior.cpp /usr/include/stdc-predef.h \
- /home/ted/Repos/consoleRPG/scr/../heder/Warrior.h \
+CMakeFiles/consoleRPG.dir/scr/warrior.cpp.o: \
+ /home/ted/Desktop/vs/conslolRPG/scr/warrior.cpp \
+ /usr/include/stdc-predef.h \
+ /home/ted/Desktop/vs/conslolRPG/scr/../heder/warrior.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

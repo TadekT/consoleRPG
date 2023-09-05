@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/consoleRPG.dir/main.cpp.o"
   "CMakeFiles/consoleRPG.dir/main.cpp.o.d"
-  "CMakeFiles/consoleRPG.dir/scr/player.cpp.o"
-  "CMakeFiles/consoleRPG.dir/scr/player.cpp.o.d"
+  "CMakeFiles/consoleRPG.dir/scr/warrior.cpp.o"
+  "CMakeFiles/consoleRPG.dir/scr/warrior.cpp.o.d"
   "consoleRPG"
   "consoleRPG.pdb"
 )
